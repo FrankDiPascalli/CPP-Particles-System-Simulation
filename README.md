@@ -47,9 +47,7 @@ Particles are modeled as material points with specific positions and velocities.
 
 ### Enclosure
 The enclosure is a rectangular parallelepiped, centered at the origin. Particles are constrained within the enclosure boundaries. 
-We gave a number for each side of this box so that we know which side is touched when there is a collision with the box.### Enclosure
-
-The enclosure is a rectangular parallelepiped, centered at the origin. Particles are constrained within the enclosure boundaries.
+We gave a number for each side of this box so that we know which side is touched when there is a collision with the box.
 
 As we put the origin in the middle of the parallelepiped, the conditions that we check to make sure that a particle is within the boundaries are:
 
